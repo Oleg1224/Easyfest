@@ -744,6 +744,10 @@ overflow-x: hidden;
     color: white;
     text-shadow: 0 0 5px black;
     z-index: 20;
+    transition: 0.5;
+}
+.box:hover {
+    transform: scale(1.2);
 }
 .box__first {
     padding: 5px;
@@ -751,8 +755,12 @@ overflow-x: hidden;
     color: white;
     text-shadow: 0 0 5px black;
     z-index: 20;
+    transition: 0.5;
 }
-.box__second {
+.box__first:hover {
+    transform: scale(1.2);
+}
+/* .box__second {
     padding: 5px;
     background: rgb(68, 67, 67);
     color: white;
@@ -765,7 +773,7 @@ overflow-x: hidden;
     color: white;
     text-shadow: 0 0 5px black;
     z-index: 20;
-}
+} */
 .block7 {
     padding-bottom: 100px;
 }

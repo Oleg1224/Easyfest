@@ -177,8 +177,20 @@ autoPoisc1.addEventListener('click', function() {
     sessionStorage.setItem('block', block2)
 })
 let autoPoisc2 = document.querySelector('.auto__poisc-gift');
+autoPoisc2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block2)
+})
 let autoPoisc3 = document.querySelector('.auto__poisc-G');
+autoPoisc3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block2)
+})
 let autoPoisc4 = document.querySelector('.auto__poisc-g');
+autoPoisc4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block2)
+})
 input.addEventListener('input', function() {
     if(input.value==='G' || input.value==='Gi' || input.value==='Gif') {
         autoPoisc1.classList.add('new')
@@ -200,9 +212,25 @@ input.addEventListener('input', function() {
     }
 })
 let autoPoiscEasyfest1 = document.querySelector('.auto__poisc-Easyfest');
+autoPoiscEasyfest1.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block3)
+})
 let autoPoiscEasyfest2 = document.querySelector('.auto__poisc-easyfest');
+autoPoiscEasyfest2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block3)
+})
 let autoPoiscEasyfest3 = document.querySelector('.auto__poisc-E');
+autoPoiscEasyfest3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block3)
+})
 let autoPoiscEasyfest4 = document.querySelector('.auto__poisc-e');
+autoPoiscEasyfest4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block3)
+})
 input.addEventListener('input', function() {
     if(input.value==='E' || input.value==='Ea' || input.value==='Eas' || input.value==='Easy' || input.value==='Easyf' || input.value==='Easyfe' || input.value==='Easyfes') {
         autoPoiscEasyfest1.classList.add('new')

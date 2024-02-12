@@ -1,0 +1,174 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+} 
+    
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+
+nav,footer,header,aside{display: block;} 
+
+:root {
+	--aktiven: #31456a;
+	--ne-aktiven: #8ca2b7;
+	--aktiven-2-element-glavnee: #262c38;
+	--ssylka: #3d95e2;
+	--karandashik: #d6e4f0;
+	--oshibka: #f17575;
+	--onlayn: #9eed97;
+	--fon-glavnoy-novyy: #80c3f4;
+	--goluboy-1: #4097e3;
+	--zheltyy: #ffd93b;
+	--beeeelyyyyy: #fff;
+	--cvet-kartochek-podlozhka: #f9faff;
+}
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Concert One", sans-serif;
+    --third-family: "Helvetica Neue", sans-serif;
+    --font3: "Avenir Next Cyr", sans-serif;
+}
+
+input,button,textarea{font-family:inherit;} 
+
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;}
+ol li{list-style: none;}  
+img{vertical-align: top;} 
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+
+html{ 
+scroll-behavior: smooth; 
+overflow: hidden;
+}
+.head {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.head__img1 {
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.head__img2 {
+    position: absolute;
+    width: 500px;
+    left: 100px;
+    bottom: 0;
+    z-index: -10;
+}
+.head__img3 {
+    position: absolute;
+    width: 250px;
+    top: 50px;
+    right: 0;
+    z-index: -10;
+}
+.Error__404 {
+    position: absolute;
+    z-index: -100;
+    top: 30px;
+    left: 300px;
+    width: 700px;
+}
+.Error__block {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Error__img {
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.Error__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: var(--aktiven);
+}
+.Error__btn {
+    padding: 14px 78px;
+    background-image: url(./img/кнопка\ желтая.svg);
+    background-size: cover;
+    border-radius: 100px;
+    /* background: linear-gradient(151deg, #f9f0c3 0%, #efbb03 77.98%); */
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--aktiven);
+    margin-top: 30px;
+}
+.Error__confeti1 {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+}
+.Error__confeti2 {
+    position: absolute;
+    width: 300px;
+    top: 80px;
+    left: 0px;
+}
+.Error__confeti3 {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+.Error__confeti4 {
+    position: absolute;
+    width: 200px;
+    top: -10px;
+    left: -20px;
+}
+.Error__confeti5 {
+    position: absolute;
+    fill: var(--fon-glavnoy-novyy);
+    left: 300px;
+    top: 80px;
+}
+.Error__confeti6 {
+    position: absolute;
+    left: 650px;
+    top: -30px;
+}
+.Error__confeti7 {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+.Error__confeti8 {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+.Error__confeti9 {
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+}
+.Error__confeti10 {
+    position: absolute;
+    bottom: 50px;
+    right: 150px;
+}
+.Error__confeti11 {
+    position: absolute;
+    bottom: -50px;
+    right: 100px;
+}

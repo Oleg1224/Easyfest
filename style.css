@@ -747,7 +747,7 @@ overflow-x: hidden;
     transition: 0.5;
 }
 .box:hover {
-    transform: scale(1.2);
+    transform: scale(1.02);
 }
 .box__first {
     padding: 5px;
@@ -758,7 +758,7 @@ overflow-x: hidden;
     transition: 0.5;
 }
 .box__first:hover {
-    transform: scale(1.2);
+    transform: scale(1.02);
 }
 /* .box__second {
     padding: 5px;

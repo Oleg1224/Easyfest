@@ -252,9 +252,25 @@ input.addEventListener('input', function() {
     }
 })
 let autoPoiscHow1 = document.querySelector('.auto__poisc-How');
+autoPoiscHow1.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block4)
+})
 let autoPoiscHow2 = document.querySelector('.auto__poisc-how');
+autoPoiscHow2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block4)
+})
 let autoPoiscHow3 = document.querySelector('.auto__poisc-H');
+autoPoiscHow3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block4)
+})
 let autoPoiscHow4 = document.querySelector('.auto__poisc-h');
+autoPoiscHow4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block4)
+})
 input.addEventListener('input', function() {
     if(input.value==='H' || input.value==='How' || input.value==='How ' || input.value==='How i' || input.value==='How it' || input.value==='How it ' || input.value==='How it w' || input.value==='How it wo' || input.value==='How it wor') {
         autoPoiscHow1.classList.add('new')
@@ -276,9 +292,25 @@ input.addEventListener('input', function() {
     }
 })
 let autoPoiscAdvantages1 = document.querySelector('.auto__poisc-Advantages');
+autoPoiscAdvantages1.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block5)
+})
 let autoPoiscAdvantages2 = document.querySelector('.auto__poisc-advantages');
+autoPoiscAdvantages2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block5)
+})
 let autoPoiscAdvantages3 = document.querySelector('.auto__poisc-A');
+autoPoiscAdvantages3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block5)
+})
 let autoPoiscAdvantages4 = document.querySelector('.auto__poisc-a');
+autoPoiscAdvantages4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block5)
+})
 input.addEventListener('input', function() {
     if(input.value==='A' || input.value==='Ad' || input.value==='Adv' || input.value==='Adva' || input.value==='Advan' || input.value==='Advant' || input.value==='Advanta' || input.value==='Advantag' || input.value==='Advantage') {
         autoPoiscAdvantages1.classList.add('new')
@@ -300,9 +332,25 @@ input.addEventListener('input', function() {
     }
 })
 let autoPoiscReviews1 = document.querySelector('.auto__poisc-Reviews');
+autoPoiscReviews1.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block6)
+})
 let autoPoiscReviews2 = document.querySelector('.auto__poisc-reviews');
+autoPoiscReviews2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block6)
+})
 let autoPoiscReviews3 = document.querySelector('.auto__poisc-R');
+autoPoiscReviews3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block6)
+})
 let autoPoiscReviews4 = document.querySelector('.auto__poisc-r');
+autoPoiscReviews4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block6)
+})
 input.addEventListener('input', function() {
     if(input.value==='R' || input.value==='Re' || input.value==='Rev' || input.value==='Revi' || input.value==='Revie' || input.value==='Review') {
         autoPoiscReviews1.classList.add('new')

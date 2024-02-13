@@ -718,7 +718,7 @@ overflow-x: hidden;
     align-items: center;
     gap: 5px;
 }
-.auto__poisc-Gift, .auto__poisc-gift, .auto__poisc-G, .auto__poisc-g, .auto__poisc-Easyfest, .auto__poisc-easyfest, .auto__poisc-E, .auto__poisc-e, .auto__poisc-How, .auto__poisc-how, .auto__poisc-H, .auto__poisc-h, .auto__poisc-Advantages, .auto__poisc-advantages, .auto__poisc-A, .auto__poisc-a, .auto__poisc-Reviews, .auto__poisc-reviews, .auto__poisc-R, .auto__poisc-r {
+.auto__poisc-Gift, .auto__poisc-gift, .auto__poisc-G, .auto__poisc-g, .auto__poisc-Easyfest, .auto__poisc-easyfest, .auto__poisc-E, .auto__poisc-e, .auto__poisc-How, .auto__poisc-how, .auto__poisc-H, .auto__poisc-h, .auto__poisc-Advantages, .auto__poisc-advantages, .auto__poisc-A, .auto__poisc-a, .auto__poisc-Reviews, .auto__poisc-reviews, .auto__poisc-R, .auto__poisc-r,.auto__poisc-News, .auto__poisc-news, .auto__poisc-N, .auto__poisc-n {
     /* opacity: 0; */
     transform: scale(0);
     position: absolute;
@@ -733,7 +733,7 @@ overflow-x: hidden;
     margin-right: 30px;
     /* transition: 0.5s; */
 }
-.auto__poisc-Gift.new, .auto__poisc-gift.new, .auto__poisc-G.new, .auto__poisc-g.new, .auto__poisc-Easyfest.new, .auto__poisc-easyfest.new, .auto__poisc-E.new, .auto__poisc-e.new, .auto__poisc-How.new, .auto__poisc-how.new, .auto__poisc-H.new, .auto__poisc-h.new, .auto__poisc-Advantages.new, .auto__poisc-advantages.new, .auto__poisc-A.new, .auto__poisc-a.new, .auto__poisc-Reviews.new, .auto__poisc-reviews.new, .auto__poisc-R.new, .auto__poisc-r.new {
+.auto__poisc-Gift.new, .auto__poisc-gift.new, .auto__poisc-G.new, .auto__poisc-g.new, .auto__poisc-Easyfest.new, .auto__poisc-easyfest.new, .auto__poisc-E.new, .auto__poisc-e.new, .auto__poisc-How.new, .auto__poisc-how.new, .auto__poisc-H.new, .auto__poisc-h.new, .auto__poisc-Advantages.new, .auto__poisc-advantages.new, .auto__poisc-A.new, .auto__poisc-a.new, .auto__poisc-Reviews.new, .auto__poisc-reviews.new, .auto__poisc-R.new, .auto__poisc-r.new, .auto__poisc-News.new, .auto__poisc-news.new, .auto__poisc-N.new, .auto__poisc-n.new {
     /* opacity: 1; */
     transform: scale(1);
     cursor: pointer;

@@ -5,6 +5,7 @@ let block3 = document.getElementById('block3').outerHTML;
 let block4 = document.getElementById('block4').outerHTML;
 let block5 = document.getElementById('block5').outerHTML;
 let block6 = document.getElementById('block6').outerHTML;
+let block7 = document.querySelector('.block7').outerHTML;
 let nameBlock2 = 'Gift';
 let nameBlock02 = 'gift'
 let nameBlock002 = 'Подарок';
@@ -25,6 +26,10 @@ let nameBlock6 = 'Reviews';
 let nameBlock06 = 'reviews';
 let nameBlock006 = 'Отзывы';
 let nameBlock0006 = 'отзывы';
+let nameBlock7 = 'News'
+let nameBlock07 = 'news'
+let nameBlock007 = 'Новости'
+let nameBlock0007 = 'новости'
 let nameAll = [nameBlock2, nameBlock02, nameBlock002, nameBlock0002, nameBlock3, nameBlock03, nameBlock003, nameBlock0003, nameBlock4, nameBlock04, nameBlock004, nameBlock0004, nameBlock5, nameBlock05, nameBlock005, nameBlock0005, nameBlock6, nameBlock06, nameBlock006, nameBlock0006];
 svg.addEventListener('click', function() {
     for(let i = 0; i<nameAll.length; i++) {
@@ -89,6 +94,18 @@ svg.addEventListener('click', function() {
                     break
                 case nameBlock0006:
                     sessionStorage.setItem('block', block6)
+                    break
+                case nameBlock7:
+                    sessionStorage.setItem('block', block7)
+                    break
+                case nameBlock07:
+                    sessionStorage.setItem('block', block7)
+                    break
+                case nameBlock007:
+                    sessionStorage.setItem('block', block7)
+                    break
+                case nameBlock0007:
+                    sessionStorage.setItem('block', block7)
                     break
             }
             window.location.href = './Gift.html' 
@@ -162,13 +179,24 @@ addEventListener('keydown', function() {
                     case nameBlock0006:
                         sessionStorage.setItem('block', block6)
                         break
+                    case nameBlock7:
+                        sessionStorage.setItem('block', block7)
+                        break
+                    case nameBlock07:
+                        sessionStorage.setItem('block', block7)
+                        break
+                    case nameBlock007:
+                        sessionStorage.setItem('block', block7)
+                        break
+                    case nameBlock0007:
+                        sessionStorage.setItem('block', block7)
+                        break
                 }
                 window.location.href = './Gift.html' 
                 return
             }
         }
         window.location.href = './Error.html'
-        /* alert('Этого не существует!') */
     }
 })
 let autoPoisc1 = document.querySelector('.auto__poisc-Gift');
@@ -369,5 +397,45 @@ input.addEventListener('input', function() {
         autoPoiscReviews2.classList.remove('new')
         autoPoiscReviews3.classList.remove('new')
         autoPoiscReviews4.classList.remove('new')
+    }
+})
+let autoPoiscNews1 = document.querySelector('.auto__poisc-News');
+autoPoiscNews1.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block7)
+})
+let autoPoiscNews2 = document.querySelector('.auto__poisc-news');
+autoPoiscNews2.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block7)
+})
+let autoPoiscNews3 = document.querySelector('.auto__poisc-N');
+autoPoiscNews3.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block7)
+})
+let autoPoiscNews4 = document.querySelector('.auto__poisc-n');
+autoPoiscNews4.addEventListener('click', function() {
+    window.location.href = './Gift.html'
+    sessionStorage.setItem('block', block7)
+})
+input.addEventListener('input', function() {
+    if(input.value==='N' || input.value==='Ne' || input.value==='New') {
+        autoPoiscNews1.classList.add('new')
+    }
+    else if(input.value==='n' || input.value==='ne' || input.value==='new') {
+        autoPoiscNews2.classList.add('new')
+    }
+    else if(input.value==='Н' || input.value==='Но' || input.value==='Нов' || input.value==='Ново' || input.value==='Новос' || input.value==='Новост') {
+        autoPoiscNews3.classList.add('new')
+    }
+    else if(input.value==='н' || input.value==='но' || input.value==='нов' || input.value==='ново' || input.value==='новос' || input.value==='новост') {
+        autoPoiscNews4.classList.add('new')
+    }
+    else {
+        autoPoiscNews1.classList.remove('new')
+        autoPoiscNews2.classList.remove('new')
+        autoPoiscNews3.classList.remove('new')
+        autoPoiscNews4.classList.remove('new')
     }
 })

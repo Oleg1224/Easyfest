@@ -1075,15 +1075,67 @@ overflow-x: hidden;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 350px;
+            margin-left: 300px;
         }
         .block7__img1 {
             background-image: url(./img/Rectangle\ 314.png);
         }
+        .block5__img1, .block5__img2, .block5__img3 {
+            width: 300px;
+        } 
+        .block5__text1, .block5__text2, .block5__text3 {
+            font-size: 20px;
+        }
     }
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
-    @media (max-width: 767px) { .. }
+    @media (max-width: 767px) {
+        .block5__box {
+            margin-left: 250px;
+        }
+        .head__img3 {
+            top: 100px;
+        }
+        .block2__img-man {
+            width: 250px;
+        }
+        .block2__text1 {
+            font-size: 18px;
+            width: 300px;
+        }
+        .block2__text2 {
+            font-size: 12px;
+        }
+        .block2__text3 {
+            font-size: 12px;
+        }
+        .block2__texts {
+            margin-left: -20px;
+        }
+        .block3__block2 {
+            margin-left: 50px;
+        }
+        .block4__bgraund {
+            width: 800px;
+        }
+        .block4__img-man {
+            width: 300px;
+            left: 200px;
+        }
+        .block4 {
+            gap: 0;
+        }
+        .block4__texts {
+            margin-left: -50px;
+        }
+        .block4__img1, .block4__img2, .block4__img3 {
+            width: 50px;
+        }
+        .block4__inside2 {
+            margin-left: -0px;
+            margin-left: 30px;
+        }
+    }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) { ... }

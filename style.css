@@ -951,6 +951,9 @@ overflow-x: hidden;
     align-items: center;
     gap: 17px;
 }
+.block7__imgs {
+    display: none;
+}
 @media (max-width: 1580px) {
     .head__block {
         display: none;
@@ -1002,13 +1005,20 @@ overflow-x: hidden;
             display: none;
         }
         .block3__block2 {
-            margin-left: 100px;
+            /* margin-left: 100px; */
+            display: flex;
+            flex-direction: column-reverse;
         }
         .block7__images1, .block7__images2 {
             display: flex;
             flex-direction: column;
         }
-        .block7__img2, .block7__img3, .block7__img4 {
+        .block7__img1, .block7__img2, .block7__img3, .block7__img4 {
+            width: 507px;
+            display: none;
+        }
+        .block7__imgs {
+            display: block;
             width: 507px;
         }
         .block5__box {
@@ -1017,10 +1027,63 @@ overflow-x: hidden;
         .block5__title {
             margin-left: 350px;
         }
+        .head__img3 {
+            transform: rotate(16deg);
+            right: -150px;
+        }
+        .SVG {
+            max-width: 500px;
+            margin-left: 100px;
+        }
+        .head__block2-texts {
+            position: absolute;
+            right: 180px;
+            bottom: -40px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-direction: column;
+        }
+        .block3__confeti7 {
+            z-index: -15;
+            display: none;
+        }
+        .block2__img {
+            display: none;
+        }
+        .block4 {
+            gap: 50px;
+        }
+        .block4__img1, .block4__img2, .block4__img3 {
+            max-width: 80px;
+        }
+        .block4__img-man {
+            max-width: 400px;
+        }
+        .block4__bgraund {
+            margin-left: -150px;
+        }
+        .block4__text1, .block4__text2, .block4__text3 {
+            max-width: 150px;
+            text-align: center;
+        }
+        .block4__confeti6 {
+            display: none;
+        }
+        .block5__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 350px;
+        }
+        .block7__img1 {
+            background-image: url(./img/Rectangle\ 314.png);
+        }
     }
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
-    @media (max-width: 767px) { ... }
+    @media (max-width: 767px) { .. }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) { ... }

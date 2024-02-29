@@ -3,6 +3,7 @@
     margin: 0; 
     border: 0; 
     text-decoration: none; 
+    /* outline: 1px solid black; */
 } 
     
 :focus,:active{outline: none;} 
@@ -215,7 +216,9 @@ overflow-x: hidden;
     transform: scale(1.1);
 }
 .main {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1108px;
+    margin: 0 auto;
 }
 .block2 {
     max-width: 1108px;
@@ -438,32 +441,55 @@ overflow-x: hidden;
     right: 0;
 }
 .block4 {
-    max-width: 1108px;
+    width: 100%;
+    /* max-width: 1108px; */
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    justify-content: space-around;
-    gap: 150px;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    /* gap: 200px; */
+    /* border: 1px solid #000; */
 }
 .block4__images {
     position: relative;
-    max-width: 500px;
+    width: 50%;
+    /* border: 1px solid #000; */
+    /* max-width: 500px; */
     /* height: 800px; */
     /* border: 1px solid #000; */
 }
+.man {
+    position: relative;
+    background-image: url(./img/Group\ 3980.png);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    height: 100%;
+}
 .block4__bgraund {
-    margin-left: -150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 1px solid #000; */
+    /* margin-left: -150px; */
 }
 .block4__img-man {
-    position: absolute;
-    top: 200px;
-    right: -120px;
-    width: 454px;
+    position: sticky;
+    /* top: 200px; */
+    top: 0;
+    /* right: -120px; */
+    /* width: 454px; */
+    width: 70%;
+    right: 0px;
+    transform: translateX(70px);
 }
 .block4__box2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+    /* border: 1px solid #000; */
     /* border: 1px solid #000; */
     /* margin-right: 600px; */
 }
@@ -587,7 +613,8 @@ overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 500px;
+    /* margin-right: 500px; */
+    /* border: 1px solid #000; */
 }
 .block5__title {
     font-family: var(--font-family);
@@ -596,7 +623,6 @@ overflow-x: hidden;
     color: var(--aktiven);
     text-align: center;
     margin: 106px 0;
-    margin-left: 200px;
 }
 .block5__box {
     max-width: 1108px;
@@ -604,7 +630,6 @@ overflow-x: hidden;
     display: flex;
     align-items: center;
     gap: 120px;
-    margin-left: 250px;
     position: relative;
     /* border: 1px solid #000; */
 }
@@ -794,13 +819,11 @@ overflow-x: hidden;
     align-items: center;
     flex-direction: column;
     padding-bottom: 100px;
-    margin-right: 500px;
 }
 .block7__box {
     display: flex;
     flex-direction: column;
     gap: 19px;
-    margin-left: 240px;
 }
 .block7__images1 {
     display: flex;
@@ -828,7 +851,6 @@ overflow-x: hidden;
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
-    margin-left: 200px;
 }
 .foot__bgraund {
     width: 100%;
@@ -958,32 +980,9 @@ overflow-x: hidden;
     .head__block {
         display: none;
     }
-    .block3__bgraund{
-        margin-left: -250px;
-    }
-    .block3__block2 {
-        margin-left: 400px;
-    }
-    .block5 {
-        margin-right: 300px;
-    }
-    .block7__box {
-        margin-left: 500px;
-    }
-    .block7__text {
-        margin-left: 500px;
-    }
-}
-@media (max-width: 1328px) {
-    .block3__block2 {
-        margin-left: 300px;
-    }
 }
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) {
-    .block3__block2 {
-        margin-left: 150px;
-    }
     .block2__head {
         margin-top: 150px;
     }
@@ -1021,19 +1020,12 @@ overflow-x: hidden;
             display: block;
             width: 507px;
         }
-        .block5__box {
-            margin-left: 150px;
-        }
-        .block5__title {
-            margin-left: 350px;
-        }
         .head__img3 {
             transform: rotate(16deg);
             right: -150px;
         }
         .SVG {
             max-width: 500px;
-            margin-left: 100px;
         }
         .head__block2-texts {
             position: absolute;
@@ -1052,7 +1044,7 @@ overflow-x: hidden;
         .block2__img {
             display: none;
         }
-        .block4 {
+        /* .block4 {
             gap: 50px;
         }
         .block4__img1, .block4__img2, .block4__img3 {
@@ -1061,27 +1053,23 @@ overflow-x: hidden;
         .block4__img-man {
             max-width: 400px;
         }
-        .block4__bgraund {
-            margin-left: -150px;
-        }
         .block4__text1, .block4__text2, .block4__text3 {
             max-width: 150px;
             text-align: center;
         }
         .block4__confeti6 {
             display: none;
-        }
+        } */
         .block5__box {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 300px;
         }
         .block7__img1 {
             background-image: url(./img/Rectangle\ 314.png);
         }
         .block5__img1, .block5__img2, .block5__img3 {
-            width: 300px;
+            width: 100%;
         } 
         .block5__text1, .block5__text2, .block5__text3 {
             font-size: 20px;
@@ -1090,9 +1078,6 @@ overflow-x: hidden;
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
     @media (max-width: 767px) {
-        .block5__box {
-            margin-left: 220px;
-        }
         .head__img3 {
             top: 100px;
         }
@@ -1109,24 +1094,15 @@ overflow-x: hidden;
         .block2__text3 {
             font-size: 12px;
         }
-        .block2__texts {
-            margin-left: -20px;
-        }
-        .block3__block2 {
-            margin-left: 50px;
-        }
-        .block4__bgraund {
+        /* .block4__bgraund {
             width: 800px;
         }
         .block4__img-man {
             width: 300px;
             left: 200px;
-        }
-        .block4 {
+        } */
+        /* .block4 {
             gap: 0;
-        }
-        .block4__texts {
-            margin-left: -50px;
         }
         .block4__img1, .block4__img2, .block4__img3 {
             width: 50px;
@@ -1134,32 +1110,18 @@ overflow-x: hidden;
         .block4__inside2 {
             margin-left: -0px;
             margin-left: 30px;
-        }
-        .block4__btn {
-            margin-left: -50px;
+        } */
+        /* .block4__btn {
             width: 200px;
-        }
+        } */
         .block6__imgs {
             display: none;
         }
-    }
-    @media (max-width: 700px) {
-        .block5__box {
-            margin-left: 200px;
-        }
-    }
 
-    @media (max-width: 650px) {
-        .block5__box {
-            margin-left: 150px;
-        }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) {
-        .block5__box {
-            margin-left: 120px;
-        }
         .head__img3 {
             width: 200px;
             right: -100px;

@@ -132,7 +132,7 @@ overflow-x: hidden;
     bottom: -40px;
     width: 300px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 6px;
     flex-direction: column;
 }
@@ -1026,8 +1026,10 @@ overflow-x: hidden;
         }
         .SVG {
             max-width: 500px;
+            position: relative;
+            left: 50px;
         }
-        .head__block2-texts {
+        . {
             position: absolute;
             right: 180px;
             bottom: -40px;
@@ -1044,22 +1046,6 @@ overflow-x: hidden;
         .block2__img {
             display: none;
         }
-        /* .block4 {
-            gap: 50px;
-        }
-        .block4__img1, .block4__img2, .block4__img3 {
-            max-width: 80px;
-        }
-        .block4__img-man {
-            max-width: 400px;
-        }
-        .block4__text1, .block4__text2, .block4__text3 {
-            max-width: 150px;
-            text-align: center;
-        }
-        .block4__confeti6 {
-            display: none;
-        } */
         .block5__box {
             display: flex;
             flex-direction: column;
@@ -1094,30 +1080,12 @@ overflow-x: hidden;
         .block2__text3 {
             font-size: 12px;
         }
-        /* .block4__bgraund {
-            width: 800px;
-        }
-        .block4__img-man {
-            width: 300px;
-            left: 200px;
-        } */
-        /* .block4 {
-            gap: 0;
-        }
-        .block4__img1, .block4__img2, .block4__img3 {
-            width: 50px;
-        }
-        .block4__inside2 {
-            margin-left: -0px;
-            margin-left: 30px;
-        } */
-        /* .block4__btn {
-            width: 200px;
-        } */
         .block6__imgs {
             display: none;
         }
-
+        .SVG {
+            left: 100px;
+        }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
@@ -1128,13 +1096,42 @@ overflow-x: hidden;
         }
         .SVG {
             width: 400px;
-            left: 0;
+        }
+        .head__title {
+            font-size: 20px;
+        }
+        .head__text2 {
+            font-size: 12px;
         }
         .head__block2-texts {
             left: 100px;
-            z-index: 15;
+            z-index: 150;
+            align-items: start;
+            bottom: 0;
         }
         .block2__img-man {
             width: 200px;
         }
+        .block4 {
+            display: none;
+        }
+    }
+    @media (max-width: 500px) {
+        .SVG {
+            width: 300px;
+            left: 50px;
+        }
+        .head__img3 {
+            width: 150px;
+            right: -80px;
+        }
+        .head__block2-texts {
+            left: 50px;
+            width: 250px;
+            text-align: center;
+            bottom: 20px;
+        }
+    }
+    @media (max-width: 375px) {
+
     }

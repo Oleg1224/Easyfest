@@ -76,10 +76,13 @@ overflow-x: hidden;
     margin-left: 40px;
 }
 .head__ico-titlee {
-    position: absolute;
+    /* position: absolute; */
     z-index: 15;
-    left: 150px;
-    top: 30px;
+    /* left: 150px; */
+    /* left: 0;
+    top: 0; */
+    /* top: 30px; */
+    cursor: pointer;
 }
 .head__text {
     color: var(--, #31456A);
@@ -96,6 +99,7 @@ overflow-x: hidden;
     align-items: center;
     z-index: 20;
     margin-top: 30px;
+    position: relative;
     justify-content: space-between;
 }
 .head__btn {
@@ -116,8 +120,10 @@ overflow-x: hidden;
     align-items: center;
 }
 .block2__head {
+    display: flex;
     max-width: 712px;
     margin: 0 auto;
+    /* width: 100%; */
     position: relative;
     top: 85px;
     right: 40px;
@@ -978,11 +984,14 @@ overflow-x: hidden;
 }
 @media (max-width: 1580px) {
     .head__block {
-        display: none;
+        /* display: none; */
     }
 }
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) {
+    .head__block {
+        display: none;
+    }
     .block2__head {
         margin-top: 150px;
     }
@@ -1021,8 +1030,9 @@ overflow-x: hidden;
             width: 507px;
         }
         .head__img3 {
-            transform: rotate(16deg);
-            right: -150px;
+            /* transform: rotate(16deg);
+            right: -150px; */
+            right: -70px;
         }
         .SVG {
             max-width: 500px;
@@ -1066,7 +1076,21 @@ overflow-x: hidden;
 /* Стилі для малих екранів (дисплей максимум 767рх) */
     @media (max-width: 767px) {
         .head__img3 {
-            top: 100px;
+            /* top: 100px; */
+            /* right: -60px; */
+            position: relative;
+            right: -20px;
+            max-width: 220px;
+            /* width: 100%; */
+        }
+        .SVG {
+            left: 100px;
+            /* max-width: 450px; */
+            /* max-width: 600px; */
+        }
+        .head__block2-texts {
+            /* bottom: 40px; */
+            right: 180px;
         }
         .block2__img-man {
             width: 250px;
@@ -1084,23 +1108,35 @@ overflow-x: hidden;
         .block6__imgs {
             display: none;
         }
-        .SVG {
-            left: 100px;
-        }
     }
 
+    @media (max-width: 630px) {
+        .head__img3 {
+            /* top: 100px; */
+            /* right: -60px; */
+            position: relative;
+            right: -20px;
+            max-width: 200px;
+            /* width: 100%; */
+        }
+        
+        .head__block2-texts {
+            /* bottom: 40px; */
+            right: 150px;
+        }
+    }
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) {
         .head__img2 {
             display: none;
         }
-        .head__img3 {
+        /* .head__img3 {
             width: 200px;
             right: -100px;
-        }
-        .SVG {
+        } */
+        /* .SVG {
             width: 400px;
-        }
+        } */
         .head__title {
             font-size: 20px;
         }
@@ -1130,14 +1166,14 @@ overflow-x: hidden;
         .head {
             width: 100%;
         }
-        .SVG {
+        /* .SVG {
             width: 300px;
             left: 50px;
-        }
-        .head__img3 {
+        } */
+        /* .head__img3 {
             width: 150px;
             right: -80px;
-        }
+        } */
         .head__block2-texts {
             left: 50px;
             width: 250px;

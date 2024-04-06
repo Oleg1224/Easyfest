@@ -439,3 +439,7 @@ input.addEventListener('input', function() {
         autoPoiscNews4.classList.remove('new')
     }
 })
+let headTitle = document.querySelector('.head__ico-titlee');
+headTitle.addEventListener('click', function() {
+    window.location.href = './style.css'
+})

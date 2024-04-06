@@ -1091,6 +1091,9 @@ overflow-x: hidden;
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) {
+        .head__img2 {
+            display: none;
+        }
         .head__img3 {
             width: 200px;
             right: -100px;
